@@ -18,7 +18,7 @@ namespace ASCII_Pictures
 
             var saveFileDialog = new SaveFileDialog
             {
-                Filter = "Images(*.bmp, *.png, *.jpg, *.JPEG) | *.bmp; *.png; *.jpg; *.JPEG"
+                Filter = "TextFiles(*.txt) | *.txt;"
             };
 
             Console.WriteLine("Нажмите Enter для старта...\n");
